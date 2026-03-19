@@ -1,0 +1,13 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mlapp
+*.mlx~
+*.autosave
+
+# Simulink
+slprj/
+*.slxc
+*.slx.autosave
+*.sldd
