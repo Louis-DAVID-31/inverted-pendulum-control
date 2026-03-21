@@ -11,3 +11,7 @@ slprj/
 *.slxc
 *.slx.autosave
 *.sldd
+
+# macOS
+.DS_Store
+**/.DS_Store
