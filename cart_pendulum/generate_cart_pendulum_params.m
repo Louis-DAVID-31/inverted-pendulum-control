@@ -5,7 +5,7 @@
 %                Saves output to cart_pendulum_params.mat
 %  Author      : Louis David
 %  Date        : 2026-03-21
-%  Version     : 1.0
+%  Version     : 1.1
 %  Usage       : Run before any simulation
 %  Dependencies: -
 %  Output      : cart_pendulum_params.mat
@@ -25,7 +25,7 @@ l = 0.3; % length from the pivot to the pendulum's COG (m)
 I = (1/12) * m * l^2; % rod's moment of inertia about the COG (kg/m^2)
 
 b = 0.1; % coefficient of friction for cart (N.s/m)
-c = 0; % pendulum viscous friction coefficient (N.m.s/rad)
+c = 0.1; % pendulum viscous friction coefficient (N.m.s/rad)
 
 %% ── State-Space matrices ────────────────────────────────────────────────
 den = (M+m)*I + m*M*l^2;
